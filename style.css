@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'EmHa';
+    src: url(fonts/EmilysHandwriting-Regular.ttf);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFD7D7; /* fallback for old browsers*/
+    background: -webkit-linear-gradient(
+        to right,
+        #FFE9EA
+        #FFD7D7 ‬
+    ); /*Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #FFE9EA,
+        #FFD7D7 
+    ); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
+    Safari 7+ */
+}
+
+h1 {
+    font-family: 'EmHa', sams-serif;
+    font-size: 6em;
+}
+body2 {
+    height: 50vh;
+    display: fit;
+    align-items: left;
+    justify-content: middle;
+    flex-direction: column;
+    
+}
+
+body2 {
+    height: 25vh;
+    height: 700px;
+    display: fit;
+    align-items: left;
+    justify-content: middle;
+    flex-direction: column;
+   
+}
+body4 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFF7F8;
+}
+body5 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'EmHa', sams-serif;
+    font-size: 6em;
+}
+
+h2 {
+    font-family: 'EmHa', sans-serif;
+    font-size: 3em;
+}
+h3 {
+    font-family: 'EmHa', sans-serif;
+    font-size: 1.5em;
+}
+h4 {
+    font-family: 'EmHa', sans-serif;
+    font-size: 6em;
+	 max-width: 50%;
+    text-align: left;
+    color: #725554;
+    
+}
+h5 {
+    font-family: 'EmHa', sans-serif;
+    font-size: 3em;
+	 max-width: 50%;
+    text-align: left;
+    color: #F97676;
+    
+}
+h1,
+h2,
+h3,
+h4
+{
+    margin: 0;
+    color: #725554;
+}
+h5 {
+    margin: 0;
+    color: #F97676;
+}
+p {
+    font-family: "EmHa", sans-serif;
+    font-size: 1.2em;
+    max-width: 50%;
+    text-align: center;
+    color: #725554;
+}
+button {
+    background: #725554;
+    font-family: "EmHa", sans-serif;
+    font-size: 1.2em;
+    max-width: 50%;
+    max-height: 70%;
+    text-align: center;
+    border: 0.15em solid #725554;
+    border-radius: 2em;
+    color: #FFE9EA;
+    cursor: pointer;
+    padding: lem 1.2em;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.320, 1);
+}
+.container {display: flex;}
+.container {
+    font-family: "EmHa", sans-serif;
+    font-size: 1.4em;
+    max-width: 100%;
+    text-align: center;
+    color: #725554;
+     width:100%;
+     height:500px;
+}
+.sclyellow{ background: #FFF7F8; flex-grow:1; }
+.scbyellow{background: #FFF7F8; }
+.sclyellow{background: #FFF7F8; }
+.container  div { font-size: 1.2em; padding:.1em;
+	text-align: left;
+	font-family: 'EmHa', sans-serif;
+    font-size: 1em;
+	 max-width: 50%;
+    text-align: left;
+    color: #725554;
+}
+a:link {
+  color: #F97676;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: #F97676;
+  background-color: transparent;
+  text-decoration: underline;
+}
