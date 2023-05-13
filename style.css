@@ -60,6 +60,14 @@ body5 {
     justify-content: center;
     flex-direction: column;
 }
+body6 {
+    height: 50vh;
+    display: fit;
+    align-items: left;
+    justify-content: middle;
+    flex-direction: column;
+    
+}
 h1 {
     font-family: 'EmHa', sams-serif;
     font-size: 6em;
