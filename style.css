@@ -2,6 +2,15 @@
     font-family: 'EmHa';
     src: url(fonts/EmilysHandwriting-Regular.ttf);
 }
+ {
+    font-family: "EmHa", sans-serif;
+    font-size: 1.4em;
+    max-width: 100%;
+    text-align: center;
+    color: #735554;
+     width:100%;
+     height:500px;
+}
 
 body {
     height: 100vh;
@@ -9,16 +18,16 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #f5fee2; /* fallback for old browsers*/
+    background: #f7f8fc; /* fallback for old browsers*/
     background: -webkit-linear-gradient(
         to right,
-        #f9fcf4
-        #f5fee2 ‬
+        #f7f8fc
+        #ffffff ‬
     ); /*Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
         to right,
-        #f9fcf4,
-        #f5fee2 
+        #f7f8fc,
+        #ffffff 
     ); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+,
     Safari 7+ */
 }
@@ -51,7 +60,7 @@ body4 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #f5fee2;
+    background: #f7f8fc;
 }
 body5 {
     height: 100vh;
@@ -86,7 +95,7 @@ h4 {
     font-size: 6em;
 	 max-width: 50%;
     text-align: left;
-    color: #b98b67;
+    color: #735554;
     
 }
 h5 {
@@ -94,7 +103,7 @@ h5 {
     font-size: 3em;
 	 max-width: 50%;
     text-align: left;
-    color: #B5CC8F;
+    color: #F18BBD;
     
 }
 h1,
@@ -103,29 +112,29 @@ h3,
 h4
 {
     margin: 0;
-    color: #b98b67;
+    color: #735554;
 }
 h5 {
     margin: 0;
-    color: #F6CA8A;
+    color: #F18BBD;
 }
 p {
     font-family: "EmHa", sans-serif;
     font-size: 1.2em;
     max-width: 50%;
     text-align: center;
-    color: #b98b67;
+    color: #735554;
 }
 button {
-    background: #b98b67;
+    background: #735554;
     font-family: "EmHa", sans-serif;
     font-size: 1.2em;
     max-width: 50%;
     max-height: 70%;
     text-align: center;
-    border: 0.15em solid #b98b67;
+    border: 0.15em solid #735554;
     border-radius: 2em;
-    color: #f5fee2;
+    color: #f7f8fc;
     cursor: pointer;
     padding: lem 1.2em;
     transition: all 300ms cubic-bezier(0.23, 1, 0.320, 1);
@@ -136,28 +145,28 @@ button {
     font-size: 1.4em;
     max-width: 100%;
     text-align: center;
-    color: #b98b67;
+    color: #735554;
      width:100%;
      height:500px;
 }
-.sclyellow{ background: #f5fee2; flex-grow:1; }
-.scbyellow{background: #f5fee2; }
-.sclyellow{background: #f5fee2; }
+.sclyellow{ background: #f7f8fc; flex-grow:1; }
+.scbyellow{background: #f7f8fc; }
+.sclyellow{background: #f7f8fc; }
 .container  div { font-size: 1.2em; padding:.1em;
 	text-align: left;
 	font-family: 'EmHa', sans-serif;
     font-size: 1em;
 	 max-width: 50%;
     text-align: left;
-    color: #b98b67;
+    color: #735554;
 }
 a:link {
-  color: #F6CA8A;
+  color: #F18BBD;
   background-color: transparent;
   text-decoration: underline;
 }
 a:visited {
-  color: #F6CA8A;
+  color: #735554;
   background-color: transparent;
   text-decoration: underline;
 }
