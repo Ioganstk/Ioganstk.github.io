@@ -2,6 +2,10 @@
     font-family: 'EmHa';
     src: url(fonts/EmilysHandwriting-Regular.ttf);
 }
+@font-face {
+    font-family: 'Monst';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
  {
     font-family: "EmHa", sans-serif;
     font-size: 1.4em;
@@ -81,7 +85,7 @@ body6 {
     
 }
 h1 {
-    font-family: 'EmHa', sams-serif;
+    font-family: 'EmHa', sans-serif;
     font-size: 6em;
 }
 
@@ -91,7 +95,7 @@ h2 {
 }
 h3 {
     font-family: 'EmHa', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 h4 {
     font-family: 'EmHa', sans-serif;
@@ -152,9 +156,9 @@ button {
      width:100%;
      height:500px;
 }
-.sclyellow{ background: #f7f8fc; flex-grow:1; }
-.scbyellow{background: #f7f8fc; }
-.sclyellow{background: #f7f8fc; }
+.sclwhite{ background: #f7f8fc; flex-grow:1; }
+.scbbeige{background: #735554; }
+.sclwhite{background: #f7f8fc; }
 .container  div { font-size: 1.2em; padding:.1em;
 	text-align: left;
 	font-family: 'EmHa', sans-serif;
@@ -163,6 +167,7 @@ button {
     text-align: left;
     color: #735554;
 }
+
 a:link {
   color: #F18BBD;
   background-color: transparent;
